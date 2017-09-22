@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Unikura</string>
+
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="log">Login</string>
+    <string name="mail">Email</string>
+    <string name="phone">Phone</string>
+    <string name="reg">Register</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <dimen name="txtfon">16sp</dimen>
+    <string name="home">Home Page</string>
+    <string name="reghere">Register Here</string>
+    <dimen name="margtop">35dp</dimen>
+    <dimen name="margbot">35dp</dimen>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="unikura.com.unikura.Register">
+
+    <EditText
+        android:id="@+id/etfname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/back"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_action_uname"
+        android:textColor="@color/colorText"
+        android:inputType="textPersonName"
+        android:text="@string/fname"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margtop"
+
+        />
+    <EditText
+        android:id="@+id/etlname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/back"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_action_uname"
+        android:inputType="textPersonName"
+        android:text="@string/lname"
+        android:textColor="@color/colorText"
+        android:layout_below="@+id/etfname"
+        android:layout_alignStart="@+id/etfname" />
+
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/back"
+        android:layout_marginTop="@dimen/margtop"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_action_phone"
+        android:inputType="phone"
+        android:text="@string/phone"
+        android:textColor="@color/colorText"
+        android:layout_below="@+id/etfname"
+        android:layout_alignStart="@+id/etlname" />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_action_mail"
+        android:background="@color/back"
+        android:text="@string/mail"
+        android:textColor="@color/colorText"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="@dimen/margtop"
+        android:layout_below="@+id/etlname"
+        android:layout_alignStart="@+id/etlname" />
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="@dimen/txtfon"
+        android:background="@color/back"
+        android:text="@string/pass"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:textColor="@color/colorText"
+        android:layout_below="@+id/etemail"
+        android:layout_alignStart="@+id/etemail" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etpass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margtop"
+        android:text="@string/reg"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/txtfon"
+        android:background="@color/colorAccent"
+        />
+
+
+</RelativeLayout>
